@@ -11,4 +11,4 @@ In JavaScript, once you've selected an element, you can manipulate it in many di
 * Creating Elements
 * Appending & Removing DOM Nodes
 
-The page has several elements that I manipulated with JavaScript only.
+The page has several elements that I manipulated with JavaScript only. No HTML or CSS was added to this page. 
