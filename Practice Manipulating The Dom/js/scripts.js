@@ -42,3 +42,5 @@ const removeDiv = document.querySelector('extra');
 button.addEventListener('click', () => {
     buttonPlace.remove();
 });
+
+//App Complete.
