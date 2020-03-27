@@ -11,5 +11,4 @@ This is a simple webpage created using Flexbox. The logic is very simple with th
 - HTML
 - CSS [style/Presentation]
 - Flexbox [Logic used to create Responsive Website]
-## [View Live Site](https://anthonys1760.github.io/Simple-Calculator/)
 
