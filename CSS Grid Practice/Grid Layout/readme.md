@@ -6,6 +6,7 @@
 ## Steps to execute this Webpage:
 - Download the entire code 
 - Open up the index.html.
+- Resize your browser to see the responsive grid rearrange itself accordingly to each screen size.
 ## Technologies used: 
 - HTML
 - CSS Grid [Style/Presentation]
