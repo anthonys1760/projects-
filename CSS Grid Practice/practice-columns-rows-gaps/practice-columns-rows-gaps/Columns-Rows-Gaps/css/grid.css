@@ -1,0 +1,12 @@
+/* ===================================================================== 
+   Practice CSS Grid Layout
+======================================================================== */
+
+/* Target the grid container */
+.wrapper {  
+  max-width: 990px;
+  display: grid;
+  grid-template-rows: 100px 400px 200px;
+  grid-template-columns: 320px 320px 320px;
+  grid-gap: 20px 15px;
+}
