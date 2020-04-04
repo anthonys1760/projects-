@@ -91,3 +91,5 @@
     // $.each(myArr, function(i, val) {
     //       console.log(val.innerHTML);
     // });
+
+    //Code By Anthony Smith Edited on 4/4/20
