@@ -1,33 +1,33 @@
-// $('#btn1').on('click',function () {
-//     $('#para1').toggle();
-// });
+    // $('#btn1').on('click',function () {
+    //     $('#para1').toggle();
+    // });
 
 
-// $('#btn2').on('click',function () {
-//     $('#para1').show();
-// });
+    // $('#btn2').on('click',function () {
+    //     $('#para1').show();
+    // });
 
-// $('#btn1').dblclick(function () {
-//     $('.para1').toggle();
-// });
+    // $('#btn1').dblclick(function () {
+    //     $('.para1').toggle();
+    // });
 
-// $('#btn1').hover(function () {
-//     $('.para1').toggle();
-// });
+    // $('#btn1').hover(function () {
+    //     $('.para1').toggle();
+    // });
 
-// $('#btn1').on('mousedown',function() {
-//     $('.para1').toggle();
-// });
+    // $('#btn1').on('mousedown',function() {
+    //     $('.para1').toggle();
+    // });
 
-// $('#btn1').on('mouseup',function() {
-//     $('.para1').toggle();
-// });
+    // $('#btn1').on('mouseup',function() {
+    //     $('.para1').toggle();
+    // });
 
-// $('#btn1').on('click',function (e) {
-//     // alert(e.currentTarget.id);
-//     // alert(e.currentTarget.innerHTML);
-//     // alert(e.currentTarget.className);
-// });
+    // $('#btn1').on('click',function (e) {
+    //     // alert(e.currentTarget.id);
+    //     // alert(e.currentTarget.innerHTML);
+    //     // alert(e.currentTarget.className);
+    // });
 
     // $('input').focus(function() {
     //     $(this).css('backgroundColor','pink');
