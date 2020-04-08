@@ -4,7 +4,7 @@
  <br>
  This is a simple Form achieved using HTML5 and CSS3. The logic is very simple with the minimum lines of code possible.
  
-## Steps to execute this calculator:
+## Steps to execute this form:
 - Download the entire code 
 - Open up the index.html.
 
