@@ -128,56 +128,91 @@
 
 // console.log(items);
 
-let val;
+// let val;
 
 
-const list = document.querySelector('ul.collection');
-const listItem = document.querySelector('li.collection-item:first-child');
+// const list = document.querySelector('ul.collection');
+// const listItem = document.querySelector('li.collection-item:first-child');
 
-val = listItem;
-val = list.childNodes[0];
-val = list.childNodes[0].nodeName;
-val = list.childNodes[3].nodeType;
+// val = listItem;
+// val = list.childNodes[0];
+// val = list.childNodes[0].nodeName;
+// val = list.childNodes[3].nodeType;
 
-//1 - Element
-//2 - Attribute (deprecated)
-//3 - Text node
-//8 - Comment
-//9 - Document itself
+// //1 - Element
+// //2 - Attribute (deprecated)
+// //3 - Text node
+// //8 - Comment
+// //9 - Document itself
 
 
-//Get child nodes
-val = list.children;
-val = list.children[1];
-val = list.children[1].textContent = 'Hello';
-//Children of children
-
-val = list.children[3].children[0].id = 'text-link';
-val = list.children[3].children[0];
-
-//Get children element nodes
+// //Get child nodes
 // val = list.children;
+// val = list.children[1];
+// val = list.children[1].textContent = 'Hello';
+// //Children of children
 
-val = list.firstChild;
-val = list.firstElementChild;
+// val = list.children[3].children[0].id = 'text-link';
+// val = list.children[3].children[0];
 
-val = list.lastChild;
-val = list.lastElementChild;
+// //Get children element nodes
+// // val = list.children;
 
-//Count child elements
-val = list.childElementCount;
+// val = list.firstChild;
+// val = list.firstElementChild;
 
-//Get Parent Node
-val = listItem.parentNode;
-val = listItem.parentElement;
-val = listItem.parentElement.parentElement;
+// val = list.lastChild;
+// val = list.lastElementChild;
 
-//Get next sibling
-val = listItem.nextSibling;
-val = listItem.nextElementSibling.nextElementSibling.previousElementSibling;
+// //Count child elements
+// val = list.childElementCount;
 
-//Get Prev sibling
-// val = listItem.previousSibling;
-// val = listItem.previousElementSibling.previousElementSibling;
+// //Get Parent Node
+// val = listItem.parentNode;
+// val = listItem.parentElement;
+// val = listItem.parentElement.parentElement;
 
-console.log(val);
+// //Get next sibling
+// val = listItem.nextSibling;
+// val = listItem.nextElementSibling.nextElementSibling.previousElementSibling;
+
+// //Get Prev sibling
+// // val = listItem.previousSibling;
+// // val = listItem.previousElementSibling.previousElementSibling;
+
+// console.log(val);
+
+
+//Create element
+
+// const li = document.createElement('li');
+
+// //Add class
+
+// //Add id
+
+// li.id="new-item";
+
+// //add attribute
+// li.setAttribute('title', 'New Item');
+
+// //Create text node and append
+// li.appendChild(document.createTextNode('Hello World'));
+
+// //Create new link element 
+// const link = document.createElement('a');
+// //Add classes
+// link.className = 'delete-item secondary-content';
+// //Add icon html 
+// link.innerHTML = '<i class="fa fa-remove"></i>';
+
+// //Append li as child to UL
+// document.querySelector('ul.collection').appendChild(li);
+
+// //Append link into li
+// li.appendChild(link);
+
+// li.className = 'collection-item';
+
+
+// console.log(li);
