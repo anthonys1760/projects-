@@ -276,31 +276,31 @@
 //   //e.preventDefault();
 // });
 
-document.querySelector('.clear-tasks').addEventListener('click', onClick);
+// document.querySelector('.clear-tasks').addEventListener('click', onClick);
 
-function onClick(e) {
-  //console.log('Clicked');
-  let val;
-  val = e;
-  // Event target element
-  val = e.target;
-  val = e.target.id;
-  val = e.target.className;
-  val = e.target.classList;
+// function onClick(e) {
+//   //console.log('Clicked');
+//   let val;
+//   val = e;
+//   // Event target element
+//   val = e.target;
+//   val = e.target.id;
+//   val = e.target.className;
+//   val = e.target.classList;
   
-  //Event Type
-  val = e.type;
+//   //Event Type
+//   val = e.type;
 
-  //Timestamp
-  val = e.timeStamp;
+//   //Timestamp
+//   val = e.timeStamp;
 
-  //Coordinates
-  val = e.clientY;
-  val = e.clientX;
+//   //Coordinates
+//   val = e.clientY;
+//   val = e.clientX;
 
-  //Coordinates event relative to the element
-  val = e.offsetY;
-  val = e.offsetX;
+//   //Coordinates event relative to the element
+//   val = e.offsetY;
+//   val = e.offsetX;
 
-  console.log(val);
-}
+//   console.log(val);
+// }
