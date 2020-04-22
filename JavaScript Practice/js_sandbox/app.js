@@ -341,12 +341,12 @@
 //   document.body.style.backgroundColor = `rgb(${e.offsetX}, ${e.offsetY}, 40)`;
 // }
 
-const form = document.querySelector('form');
-const taskInput = document.getElementById('task');
-const heading = document.querySelector('h5');
-const select = document.querySelector('select');
-//Clear Input
-taskInput.value = '';
+// const form = document.querySelector('form');
+// const taskInput = document.getElementById('task');
+// const heading = document.querySelector('h5');
+// const select = document.querySelector('select');
+// //Clear Input
+// taskInput.value = '';
 
 // form.addEventListener('submit', runEvent);
 
@@ -374,10 +374,10 @@ taskInput.value = '';
 // taskInput.addEventListener('input', runEvent);
 
 //Change
-select.addEventListener('change', runEvent);
+// select.addEventListener('change', runEvent);
 
-function runEvent(e) {
-  console.log(`EVENT TYPE: ${e.type}`);
+// function runEvent(e) {
+//   console.log(`EVENT TYPE: ${e.type}`);
 
   // console.log(e.target.value);
 
@@ -389,5 +389,48 @@ function runEvent(e) {
   // console.log(taskInput.value);
 
   // e.preventDefault();
-}
+// }
+
+//EVENT BUBBLING
+
+// document.querySelector('.card-title').addEventListener('click', function(){
+//   console.log('card title');
+// });
+
+// document.querySelector('.card-content').addEventListener('click', function(){
+//   console.log('card content');
+// });
+
+// document.querySelector('.card').addEventListener('click', function(){
+//   console.log('card');
+// });
+
+
+// document.querySelector('.col').addEventListener('click', function(){
+//   console.log('col');
+// });
+
+//Event Delegation
+
+// const delItem = document.querySelector('.delete-item');
+
+// delItem.addEventListener('click', deleteItem);
+
+// document.body.addEventListener('click', deleteItem);
+
+// function deleteItem(e) {
+//   console.log(e.target);
+//   if (e.target.parentElement.className === 'delete-item secondary-c') {
+//     console.log('delete item');
+//   }
+// }
+
+// function deleteItem(e) {
+//   if (e.target.parentElement.classList.contains('delete-item')){
+//     console.log('delete item');
+//     e.target.parentElement.parentElement.remove();
+//   }
+// }
+
+
 
